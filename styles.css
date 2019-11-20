@@ -12,7 +12,8 @@ html {
   margin: auto;
   min-height: 100vh;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
+  margin-top: 129px;
 }
 
 .price-card {
@@ -32,16 +33,15 @@ html {
   color: #fff;
   font-size: 20px;
   font-weight: 300;
-  line-height: 43px;
   text-align: center;
-  line-height: 30px;
+  line-height: 20px;
   margin-bottom: 36px;
   margin-top: 30px;
 }
 .price-card__title-bold {
   font-weight: 700;
   font-size: 35px;
-  line-height: 34px;
+  line-height: 43px;
 }
 .price-card__price {
   height: 104px;
@@ -74,7 +74,7 @@ html {
   border-radius: 20px;
   border: none;
   color: #fff;
-  font-size: 14px;
+  font-size: 17px;
   line-height: 17px;
   text-align: center;
   margin-top: 37px;
@@ -120,6 +120,7 @@ html {
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
+  height: 50px;
 }
 .options-list__item:nth-child(odd) {
   background-color: #2A3438;

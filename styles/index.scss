@@ -13,7 +13,8 @@ html{
             margin: auto;
             min-height: 100vh;
             display: flex;
-            align-items: center;
+            /* align-items: center; */
+            margin-top: 129px;
 }
 .price-card{
     width: 380px;
@@ -31,16 +32,15 @@ html{
         color: $text-color-white;
         font-size: 20px;
         font-weight: 300;
-line-height: 43px;
 text-align: center;
-line-height: 30px;
+line-height: 20px;
 margin-bottom: 36px;
 margin-top: 30px;
     }
     &__title-bold{
         font-weight: 700;
         font-size: 35px;
-        line-height: 34px;
+        line-height: 43px;
     }
     &__price{
         height: 104px;
@@ -73,7 +73,7 @@ background-color: $background-color-green;
 border-radius: 20px;
 border: none;
 color: $text-color-white;
-font-size: 14px;
+font-size: 17px;
 line-height: 17px;
 text-align: center;
 margin-top: 37px;
@@ -82,6 +82,7 @@ margin-top: 37px;
     width: 380px;
     height: auto;
     position: absolute;
+
   }
    &__wrap-ribbon {
     width: 106px;
@@ -118,6 +119,7 @@ margin-top: 37px;
         font-weight: 300;
         font-size: 15px;
         line-height: 18px;
+        height: 50px;
         &:nth-child(odd){
             background-color: $background-color-darkgray;
         }
