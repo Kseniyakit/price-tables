@@ -41,5 +41,37 @@ html {
   font-size: 35px;
   line-height: 34px;
 }
+.price-card__price {
+  height: 104px;
+  background-color: #5BB189;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 55px;
+  line-height: 67px;
+  font-weight: 700;
+}
+.price-card__description {
+  text-align: center;
+  margin: 39px 26.5px 42px 26px;
+  color: #fff;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+}
+.price-card__options-list {
+  width: 100%;
+  min-height: 300px;
+}
+
+.options-list {
+  list-style-type: none;
+}
+.options-list____item {
+  display: flex;
+  color: #fff;
+}
 
 /*# sourceMappingURL=styles.css.map */

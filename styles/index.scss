@@ -40,4 +40,35 @@ line-height: 30px;
         font-size: 35px;
         line-height: 34px;
     }
+    &__price{
+        height: 104px;
+        background-color: $background-color-green;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $text-color-white;
+        font-size: 55px;
+        line-height: 67px;
+        font-weight: 700;
+    }
+    &__description{
+        text-align: center;
+        margin: 39px 26.5px 42px 26px;
+        color: $text-color-white;
+        font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+    }
+    &__options-list{
+        width: 100%;
+        min-height: 300px;
+    }
+}
+.options-list{
+    list-style-type: none;
+    &____item{
+        display: flex;
+        color: $text-color-white;
+    }
 }
